@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
-    <script src="game_logic.js"></script>
+    <script src="game_logic.js" defer></script>
+    <link rel="stylesheet" href="ui.css"></link>
 </head>
 <body>
-    
+<div id="mainstuff">
+    <div class="output">
+        <div class="staticStuff">
+            <p class="comp">COMPUTERS CHOICE</p>
+            <p class="human">HUMANS CHOICE</p>
+        </div>
+        <div class="partition01">
+            <p> - </p>
+            <p> - </p>  
+        </div>
+        <div class="changingStuff">
+            <p class="compOutput"></p>
+            <p class="humanOutput"></p>
+        </div>
+        
+    </div>
+    <div class="opn_box">
+        <button class="Rock">Rock</button>
+        <button class="Paper">Paper</button>
+        <button class="Scissor">Scissor</button>
+    </div>
+    <div class="scoreboard">
+        <div class="staticPart">
+            <p>ROUND NUMBER</p>
+            <p>COMPUTERS SCORE</p>
+            <P>HUMANS SCORE</P>
+            <p>DRAW COUNT</p>
+        </div>
+        <div class="partition02">
+            <p> - </p>
+            <p> - </p>        
+            <p> - </p>
+            <p> - </p>            
+        </div>
+        <div class="noPart">
+            <p class="Round">0</p>
+            <p class="CompScore">0</p>
+            <p class="HumanScore">0</p>
+            <p class="DrawScore">0</p>
+        </div>
+        
+    </div>
+</div>    
+
+   
+
 </body>
 </html>
